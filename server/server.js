@@ -10,7 +10,7 @@ const app = express();
 
 const allowedOrigins = [
   process.env.CLIENT_URL || 'http://localhost:3000',
-  'https://ai-chat-five-fawn.vercel.app',       // Your Netlify frontend URL
+  'https://ai-chat-five-fawn.vercel.app',     
   'http://localhost:3000'             // Local development
 ];
 app.use(cors({

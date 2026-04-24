@@ -4,7 +4,7 @@ import axios from 'axios';
 const getApiUrl = () => {
   // Production - use the deployed backend URL
   if (process.env.NODE_ENV === 'production') {
-    return process.env.REACT_APP_API_URL || 'https://your-backend-url.onrender.com/api';
+    return process.env.REACT_APP_API_URL || 'https://aichat-w5zw.onrender.com/api';
   }
   // Development - use localhost
   return process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
